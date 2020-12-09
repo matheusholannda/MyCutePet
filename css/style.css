@@ -1754,8 +1754,7 @@ input[type="radio"] .styled:checked+label::after {
 	font-size: 40px;
 	font-weight: bold;
 	color: #050303;
-	line-height: 46px;
-	border-bottom: #0fc690 solid 1px;
+	line-height: 46px;	
 	width: 410px;
 	margin: 0 auto;
 	margin-bottom: 0px;
@@ -1769,7 +1768,7 @@ input[type="radio"] .styled:checked+label::after {
 }
 
 .about .img-box {
-	text-align: center;
+	text-align: center !important;
 }
 
 .about .img-box figure {
@@ -1809,7 +1808,6 @@ input[type="radio"] .styled:checked+label::after {
 
 .service .titlepage h2 {
 	color: #ffffff !important;
-	border-bottom: #ffffff solid 1px !important;
 }
 
 .service .titlepage span {
@@ -1857,7 +1855,6 @@ input[type="radio"] .styled:checked+label::after {
 	font-weight: bold;
 	color: #050303;
 	line-height: 46px;
-	border-bottom: #0fc690 solid 1px;
 	width: 210px;
 	margin: 0 auto;
 	margin-bottom: 0px;
@@ -1991,7 +1988,7 @@ img.zoom {
 #main_slider .carousel-control-next:hover,
 #main_slider .carousel-control-prev:focus,
 #main_slider .carousel-control-next:focus {
-	background: #DCEF3D;
+	background:#DCEF3D;
 	color: #fff;
 }
 
@@ -2092,7 +2089,7 @@ img.zoom {
 #testimonial_slider .carousel-control-prev:focus,
 #testimonial_slider .carousel-control-next:focus {
 	color: #fff;
-	background: #0fc690;
+	background:#DCEF3D;
 	width: 50px;
 	height: 50px;
 }
@@ -2391,7 +2388,7 @@ ul.contant_icon li img {
 #myCarousel .carousel-control-next:hover,
 #myCarousel .carousel-control-prev:focus,
 #myCarousel .carousel-control-next:focus {
-	background: #0fc690;
+	background: #DCEF3D;
 	color: #fff;
 }
 
